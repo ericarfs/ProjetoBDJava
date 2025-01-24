@@ -1,8 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-//https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/e497064e-5f30-43e2-9464-1faf31854f6f-1/secure-connect-projetobd.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20241014%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20241014T185755Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=f7cb3037aef220aed932d492a72685c4051fb308cf21cdd194da59a10ebc73f3
 package projetobd;
 
 import com.datastax.astra.client.DataAPIClient;
@@ -82,8 +77,8 @@ public class DBFuncionalidades {
             // Estabelecendo a conexão com o Cassandra local
             session = CqlSession.builder()
                     .addContactPoint(new InetSocketAddress("127.0.0.1", 9042))
-                    .withKeyspace(CqlIdentifier.fromCql("universidade")) // substitua "seu_keyspace" pelo nome do seu keyspace
-                    .withLocalDatacenter("datacenter1") // O datacenter padrão é geralmente "datacenter1"
+                    .withKeyspace(CqlIdentifier.fromCql("universidade")) 
+                    .withLocalDatacenter("datacenter1") 
                     .build();
             
             System.out.println("Conectado ao Cassandra com sucesso!");
