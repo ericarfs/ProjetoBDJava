@@ -1,0 +1,4 @@
+Érica Ribeiro Filgueira dos Santos - 11836351
+Thiago Prado Dalla Dea  - 12691710
+
+Observação: Os arquivos ddl e dml referem-se à criação do banco de dados e inserção de dados para operação.
