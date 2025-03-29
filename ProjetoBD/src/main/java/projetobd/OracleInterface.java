@@ -4,7 +4,7 @@ import java.io.IOException;
 
 /**
  *
- * @author junio
+ * @author Érica Ribeiro
  */
 public class OracleInterface {
 

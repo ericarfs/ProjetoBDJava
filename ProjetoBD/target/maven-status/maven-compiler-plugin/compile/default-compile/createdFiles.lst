@@ -1,5 +1,7 @@
-projetobd\DBFuncionalidades$CustomRenderer.class
-projetobd\JanelaPrincipal.class
-projetobd\DBFuncionalidades$ArrayTableModel.class
-projetobd\DBFuncionalidades.class
-projetobd\OracleInterface.class
+projetobd/OracleInterface.class
+projetobd/DBFuncionalidades$CustomRenderer.class
+projetobd/CassandraConnection.class
+projetobd/ArrayTableModel.class
+projetobd/DBFuncionalidades.class
+projetobd/DBGUIHelper.class
+projetobd/JanelaPrincipal.class
